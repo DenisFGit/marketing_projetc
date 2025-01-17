@@ -1,0 +1,16 @@
+@mixin mail-scale-days {
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 119%;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2e2f35;
+}
+
+@mixin mail-desc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 157%;
+    text-align: center;
+    color: #58595d;
+}

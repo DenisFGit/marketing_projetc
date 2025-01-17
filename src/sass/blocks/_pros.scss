@@ -1,0 +1,79 @@
+.pros {
+    padding: 86px 0 110px 0;
+    background-color: #FDF3EA;
+    .container {
+        padding: 0 15%
+    }
+    &__title {
+        width: 940px;
+        margin: 0 auto;
+    }
+    &__wrapper {
+        margin-top: 108px;
+    }
+    &__item {
+        width: 550px;
+    }
+    &__power-wrapper {
+        display: flex;
+    }
+    &__fight-wrapper {
+        margin-top: 100px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__subtitle {
+        // width: 550px;
+        font-weight: 700;
+        font-size: 60px;
+        color: #2e2f35;
+        line-height: 115%;
+        letter-spacing: -0.05em;
+        span {
+            font-family: 'Gloria', sans-serif;
+            color: $greenColor;
+        }
+    }
+    &__desc {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 170%;
+        color: #58595d;
+        margin-top: 30px;
+        width: 485px;
+    }
+    &__review {
+        width: 516px;
+        min-height: 167px;
+        border: 2px solid #d1c7be;
+        border-radius: 15px;
+        padding: 34px;
+        margin-top: 48px;
+        position: relative;
+        &::before {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 35px;
+            background-image: url('../img/laps.png');
+            position: absolute;
+            top: -20px;
+        }
+        &-text {
+            font-style: italic;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 187%;
+            color: #58595d;
+        }
+        &-author {
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 157%;
+            color: #a89b90;
+        }
+    }
+}

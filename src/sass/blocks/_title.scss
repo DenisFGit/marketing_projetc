@@ -4,5 +4,9 @@
     line-height: 121%;
     letter-spacing: -0.03em;
     text-align: center;
-    color: #2e2f35
+    color: #2e2f35;
+    span {
+        font-family: 'Gloria', sans-serif;
+        color: $greenColor;
+    }
 }

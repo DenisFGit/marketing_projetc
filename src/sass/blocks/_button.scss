@@ -1,0 +1,31 @@
+.btn {
+    width: 260px;
+    min-height: 64px;
+    border: 2px solid #2e2f35;
+    border-radius: 15px;
+    padding: 22px 65px;
+    box-shadow: 3px 3px 0 0 #2e2f35;
+    background: #ff6d2c;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 154%;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    &_log {
+        border-radius: 12px;
+        padding: 10px 10px;
+        width: 83px;
+        min-height: 44px;
+        background-color: #ffff;
+        color: #2e2f35;
+    }
+    &_reg {
+        border-radius: 12px;
+        padding: 14px 25px;
+        min-width: 184px;
+        min-height: 44px;
+    }
+}

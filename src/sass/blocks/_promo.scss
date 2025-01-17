@@ -1,0 +1,37 @@
+.promo {
+    position: relative;
+    min-height: 756px;
+    padding: 128px 0;
+    background-color: #e0f8f2;
+    &__wrapper {
+        display: flex;
+        position: relative;
+    }
+    &__title {
+        width: 1150px;
+        font-weight: 700;
+        font-size: 82px;
+        line-height: 117%;
+        color: #2e2f35;
+        span {
+            font-family: 'Gloria', sans-serif;
+            color: $greenColor;
+        }
+    }
+    &__subtitle {
+        width: 855px;
+        margin-top: 25px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 170%;
+        color: #58595d;
+    }
+    &__btn {
+        margin-top: 48px;
+    }
+    &__img {
+        position: absolute;
+        right: 0;
+        top: 53px;
+    }
+}

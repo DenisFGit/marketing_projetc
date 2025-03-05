@@ -1,0 +1,54 @@
+.profit {
+    background-color: #EEECFF;
+    padding: 96px 0;
+    &__item {
+        display: flex;
+        gap: 64px;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 170%;
+        color: #58595d;
+        margin-top: 36px;
+    }
+    &__numbers {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 48px;
+    }
+    &__roi-percent,
+    &__conversion-percent,
+    &__sales-num {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 88%;
+        letter-spacing: -0.03em;
+        color: #2e2f35;
+    }
+    &__roi-name,
+    &__conversion-name,
+    &__sales-name {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 157%;
+        color: #58595d;
+    }
+    &__btn {
+        margin: 70px auto 0 auto;
+    }
+    &__list {
+        margin-bottom: 0;
+        margin-top: 48px;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        li {
+            padding: 0 24px 26px 24px;
+            cursor: pointer;
+            border-bottom: 2px solid #009387;
+        }
+    }
+
+}

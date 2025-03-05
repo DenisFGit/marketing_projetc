@@ -44,8 +44,12 @@
             letter-spacing: -0.01em;
             color: rgba(46, 47, 53, 0.4);
             transition: all 0.5s;
+            cursor: pointer;
             &_active {
                 color: #2e2f35;
+            }
+            &:hover {
+                color: #3c415e;
             }
         }
         &-desc {
@@ -55,6 +59,8 @@
             font-size: 20px;
             line-height: 170%;
             color: #58595d;
+            animation-name: fade;
+            animation-duration: 1s;
         }
 
     }

@@ -3,9 +3,10 @@
     min-height: 64px;
     border: 2px solid #2e2f35;
     border-radius: 15px;
-    padding: 22px 65px;
+    // padding: 22px 65px;
     box-shadow: 3px 3px 0 0 #2e2f35;
     background: #ff6d2c;
+    display: block;
 
     font-weight: 700;
     font-size: 13px;
@@ -14,6 +15,7 @@
     text-transform: uppercase;
     text-align: center;
     color: #fff;
+    text-decoration: none;
     &_log {
         border-radius: 12px;
         padding: 10px 10px;
@@ -27,5 +29,15 @@
         padding: 14px 25px;
         min-width: 184px;
         min-height: 44px;
+    }
+    &_white {
+        background: #fff;
+        padding: 0;
+        color: #2e2f35;
+        border: 2px solid #2e2f35;
+        border-radius: 15px;
+        // padding: 22px 41px 22px 42px;
+        width: 232px;
+        min-height: 64px;
     }
 }

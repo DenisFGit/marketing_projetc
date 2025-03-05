@@ -1,0 +1,26 @@
+.trends {
+    padding: 95px 0;
+    &__list {
+        margin-top: 74px;
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        gap: 30px;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    &__item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        &-desc {
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 138%;
+            color: #2e2f35;
+            text-align: center;
+        }
+    }
+}

@@ -22,6 +22,9 @@
         display: flex;
         justify-content: flex-end;
     }
+    &__support-wrapper {
+        margin-top: 100px;
+    }
     &__subtitle {
         // width: 550px;
         font-weight: 700;

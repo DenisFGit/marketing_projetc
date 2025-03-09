@@ -416,7 +416,7 @@
         }
         &__review {
             width: auto;
-            margin: 48 auto 0 auto;
+            margin: 48px auto 0 auto;
         }
         &__power-wrapper {
             justify-content: center;
@@ -527,5 +527,284 @@
         // &__info {
         //     flex-direction: column;
         // }
+    }
+}
+
+@media (max-width:576px) {
+    .nav {
+        min-height: unset;
+        padding: 15px 0;
+        &__ul {
+            gap: 20px;
+            padding-left: 0;
+            li {
+                font-size: 10px;
+            }
+        }
+        &__logo {
+            display: block;
+        }
+        &__ul-btn-wrapper {
+            gap: unset;
+        }
+        &__wrapper {
+            gap: 15px;
+            justify-content: center;
+        }
+    }
+    .promo {
+        padding: 25px 0;
+        &__title {
+            width: auto;
+            font-size: 24px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+    }
+    .title {
+        font-size: 24px;
+    }
+    .btn {
+        width: 170px;
+        font-size: 11px;
+        min-height: 40px;
+    }
+    .brands {
+        &__wrapper {
+            gap: 45px;
+        }
+    }
+    .pros {
+        padding: 40px 0 40px 0;
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__wrapper {
+            margin-top: 0;
+        }
+        &__power-wrapper {
+            margin-top: 50px;
+        }
+        &__desc {
+            width: auto;
+            font-size: 11px;
+            margin: 20px;
+        }
+        &__review {
+            margin-top: 30px;
+            padding: 20px;
+            min-height: unset;
+        }
+        &__review-text {
+            font-size: 10px;
+        }
+        &__review-author {
+            flex-direction: column;
+            font-size: 10px;
+            img {
+                width: 30%;
+                // height: 50%;
+            }
+        }
+    }
+    .advice {
+        padding: 40px 0;
+        &__wrapper {
+            grid-template-columns: 220px;
+        }
+        &__item {
+            &-title {
+                font-size: 14px;
+                margin-top: 20px;
+            }
+            &-desc {
+                font-size: 11px;
+            }
+        }
+    }
+    .launch {
+        &__wrapper {
+            gap: 15px;
+        }
+        &__item {
+            grid-template-columns: 20px auto;
+            grid-template-rows: minmax(20px, auto) minmax(1px, auto);
+            gap: 5px;
+            &-num {
+                font-size: 14px;
+            }
+            &-title {
+                font-size: 14px;
+            }
+            &-desc {
+                font-size: 14px;
+            }
+        }
+    }
+    .review {
+        padding: 40px 0;
+        &__slides {
+            display: block;
+            margin-top: 30px;
+        }
+        &__item {
+            padding: 15px;
+            width: auto;
+            &-title {
+                width: unset;
+            }
+            &-name {
+                font-size: 11px;
+            }
+            &-nickname {
+                font-size: 10px;
+            }
+            &-desc {
+                font-size: 10px;
+            }
+        }
+        &__slider-next,
+        &__slider-prev {
+            display: none;
+        }
+        &__btn {
+            margin-top: 40px;
+        }
+    }
+    .profit {
+        padding: 30px;
+        .title {
+            font-size: 24px;
+        }
+        &__list {
+            margin-top: 20px;
+            li {
+                padding: 15px;
+            }
+        }
+        &__btn {
+            margin-top: 30px;
+        }
+        &__text {
+            font-size: 16px;
+        }
+        &__roi {
+            &-percent {
+                font-size: 12px;
+            }
+            &-name {
+                font-size: 12px;
+            }
+        }
+        &__conversion {
+            &-percent {
+                font-size: 12px;
+            }
+            &-name {
+                font-size: 12px;
+            }
+        }
+        &__sales {
+            &-num {
+                font-size: 12px;
+            }
+            &-name {
+                font-size: 12px;
+            }
+        }
+        &__item {
+            gap: 15px;
+        }
+    }
+    .free {
+        &__title {
+            width: auto;
+            margin-top: 0;
+            font-size: 24px;
+        }
+        &__desc {
+            font-size: 14px;
+        }
+        &__raiting {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            &-text {
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+        &__wrapper {
+            img {
+                width: 70%;
+                height: 70%;
+            }
+        }
+        &__addtext {
+            font-size: 11px;
+        }
+    }
+    .trends {
+        &__list {
+            flex-direction: column;
+            margin-top: 45px;
+        }
+        &__item {
+            width: auto;
+        }
+    }
+    .footer {
+        padding: 40px 0;
+        &__info {
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            gap: 25px;
+        }
+        &__ecology {
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 20%;
+                height: 50%;
+            }
+            &-desc {
+                text-align: center;
+                font-size: 10px;
+            }
+        }
+        &__grid {
+            li {
+                font-size: 12px;
+            }
+        }
+        &__logo {
+            text-align: center;
+            img {
+                width: 35%;
+            }
+            &-desc {
+                font-size: 12px;
+            }
+        }
+        &__caption {
+            padding-top: 20px;
+            flex-direction: column;
+            gap: 20px;
+        }
+        &__btns {
+            justify-content: center;
+            &-try {
+                width: 100px;
+                min-height: unset;
+                font-size: 12px;
+            }
+            &-login {
+                width: 100px;
+                min-height: unset;
+                font-size: 12px;
+            }
+        }
     }
 }

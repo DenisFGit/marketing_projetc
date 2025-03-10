@@ -154,7 +154,7 @@
     .profit {
         &__list {
             flex-wrap: wrap;
-            row-gap: 10px;
+            row-gap: 12px;
         }
     }
     .free {
@@ -209,12 +209,12 @@
         &_log {
             width: 66px;
             padding: 0;
-            font-size: 11px;
+            font-size: 12px;
         }
         &_reg {
             max-width: 100px;
             padding: 0;
-            font-size: 11px;
+            font-size: 12px;
         }
     }
     .promo {
@@ -541,7 +541,7 @@
             gap: 20px;
             padding-left: 0;
             li {
-                font-size: 10px;
+                font-size: 12px;
             }
         }
         &__logo {
@@ -570,7 +570,7 @@
     }
     .btn {
         width: 170px;
-        font-size: 11px;
+        font-size: 12px;
         min-height: 40px;
     }
     .brands {
@@ -591,7 +591,7 @@
         }
         &__desc {
             width: auto;
-            font-size: 11px;
+            font-size: 12px;
             margin: 20px;
         }
         &__review {
@@ -600,11 +600,11 @@
             min-height: unset;
         }
         &__review-text {
-            font-size: 10px;
+            font-size: 12px;
         }
         &__review-author {
             flex-direction: column;
-            font-size: 10px;
+            font-size: 12px;
             img {
                 width: 30%;
                 // height: 50%;
@@ -622,7 +622,7 @@
                 margin-top: 20px;
             }
             &-desc {
-                font-size: 11px;
+                font-size: 12px;
             }
         }
     }
@@ -658,13 +658,13 @@
                 width: unset;
             }
             &-name {
-                font-size: 11px;
+                font-size: 12px;
             }
             &-nickname {
-                font-size: 10px;
+                font-size: 12px;
             }
             &-desc {
-                font-size: 10px;
+                font-size: 12px;
             }
         }
         &__slider-next,
@@ -745,7 +745,7 @@
             }
         }
         &__addtext {
-            font-size: 11px;
+            font-size: 12px;
         }
     }
     .trends {
@@ -774,7 +774,7 @@
             }
             &-desc {
                 text-align: center;
-                font-size: 10px;
+                font-size: 12px;
             }
         }
         &__grid {

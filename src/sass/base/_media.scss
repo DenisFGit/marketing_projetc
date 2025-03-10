@@ -538,7 +538,7 @@
         min-height: unset;
         padding: 15px 0;
         &__ul {
-            gap: 20px;
+            gap: 10px;
             padding-left: 0;
             li {
                 font-size: 12px;
@@ -574,9 +574,18 @@
         min-height: 40px;
     }
     .brands {
+        padding: 40px 0;
         &__wrapper {
-            gap: 45px;
+            gap: 30px;
         }
+        &__item {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .mail {
+        padding: 40px 0;
     }
     .pros {
         padding: 40px 0 40px 0;
@@ -683,7 +692,7 @@
         &__list {
             margin-top: 20px;
             li {
-                padding: 15px;
+                padding: 5px;
             }
         }
         &__btn {

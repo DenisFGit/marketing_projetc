@@ -16,6 +16,12 @@
     text-align: center;
     color: #fff;
     text-decoration: none;
+    &:hover {
+        background: #ff9568;
+    }
+    &:active {
+        background: #f44900;
+    }
     &_log {
         border-radius: 12px;
         padding: 10px 10px;
@@ -23,6 +29,12 @@
         min-height: 44px;
         background-color: #ffff;
         color: #2e2f35;
+        &:hover {
+            background: #bcbcbc;
+        }
+        &:active {
+            background: rgb(117, 117, 117);
+        }
     }
     &_reg {
         border-radius: 12px;
@@ -39,6 +51,13 @@
         // padding: 22px 41px 22px 42px;
         width: 232px;
         min-height: 64px;
+        box-shadow: 0px 0px 0 0 #2e2f35;
+        &:hover {
+            background: #bcbcbc;
+        }
+        &:active {
+            background: rgb(117, 117, 117);
+        }
     }
 
 }

@@ -31,6 +31,15 @@
         font-size: 18px;
         line-height: 129%;
         color: #222;
+        cursor: pointer;
+        li {
+            padding: 5px;
+            &:hover {
+                background-color: #ff6d2c;
+                color: #ffff;
+                border-radius: 8px;
+            }
+        }
     }
     &__btns {
         &-wrapper {

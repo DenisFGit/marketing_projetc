@@ -4,11 +4,20 @@
         position: relative;
         &-next {
             position: absolute;
-            right: 20%;
+            right: 30%;
         }
         &-prev {
             position: absolute;
-            left: 20%;
+            left: 30%;
+        }
+        &-next,
+        &-prev {
+            &:hover {
+                background-color: #a7a7a7;
+            }
+            &:active {
+                background-color: #767676;
+            }
         }
         button {
             font-size: 40px;
